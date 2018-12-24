@@ -4,12 +4,17 @@
 [image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
+# Dog-Breed-Classifier
+## About
+In this project, I build a convolutional neural network (CNN) that can classify the breed of dog from any user-supplied image. If the image is of a human and not a dog, the algorithm will provide an estimate of the dog breed that is most resembling.
+
+The code is written in Python 3 and Keras with Tensorflow backend all presented in Jupyter Notebook. I used AWS EC2 gpu instance for training the model.
 
 ## Project Overview
 
 Welcome to the Convolutional Neural Networks (CNN) project in the AI Nanodegree! In this project, you will learn how to build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
-![Sample Output][image1]
+
 
 Along with exploring state-of-the-art CNN models for classification, you will make important design decisions about the user experience for your app.  Our goal is that by completing this lab, you understand the challenges involved in piecing together a series of models designed to perform various tasks in a data processing pipeline.  Each model has its strengths and weaknesses, and engineering a real-world application often involves solving many problems without a perfect answer.  Your imperfect solution will nonetheless create a fun user experience!
 
